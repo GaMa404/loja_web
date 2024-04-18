@@ -23,3 +23,62 @@ header a
     font-size: 3vh;
     margin: 3vh;
 }
+
+.titulo
+{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3vh;
+    background-color: #e2a9e1;
+    border-radius: 1vh;
+    padding: 2vh;
+}
+
+.container
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 35vh);
+    grid-template-rows: repeat(5, 50vh);
+    height: 100vh;
+}
+
+.item
+{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding: 3vh;
+    border-right: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+
+}
+
+.item img
+{
+    height: 40vh;
+    width: 30vh;
+    margin: 1vh;
+}
+
+.item img:hover
+{
+    transform: scale(0.97);
+    transition: transform .4s;
+    cursor: pointer;
+}
+
+footer
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 3vh;
+    padding: 2vh;
+    background-color: #e2a9e1;
+}
