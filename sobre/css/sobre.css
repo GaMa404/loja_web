@@ -1,0 +1,40 @@
+body{
+    border-radius: 10%;
+    text-align: center;
+    font-size: large; 
+    background-color: #e2a9e1
+    
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;  
+    
+}
+.imagens img{
+    margin: 3%;
+    border-radius: 3vh;
+
+}
+.video{
+    display: flex;
+    margin-left: 40%;
+    margin-bottom: 20%;
+    border-radius: 3vh;
+}
+header
+{
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+}
+
+header a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    margin: 3vh;
+}
