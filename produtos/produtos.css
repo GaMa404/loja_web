@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: black;
+}
+
+
+header
+{
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+}
+
+header a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    margin: 3vh;
+}
